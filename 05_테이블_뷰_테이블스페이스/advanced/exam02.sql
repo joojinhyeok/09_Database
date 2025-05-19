@@ -31,7 +31,8 @@ from emp_dept_info
 order by emp_no
 limit 7;
 
-select dept_name
+select *
 from emp_dept_info
-group by dept_name;
+where to_date = '9999-01-01'
+order by emp_no;
 
